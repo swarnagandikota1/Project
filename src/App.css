@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.div {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  text-align: center;
+  color: #0000ff;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.para {
+  color: blueviolet;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.text {
+  color: cornflowerblue;
+  font-weight: 700;
+  font-size: larger;
+  margin-left: 30px;
+}
+
+.input {
+  height: 50px;
+  width: 300px;
+  margin-left: 150px;
+  font-size: 18px;
+}
+
+.button {
+  background-color: lightgreen;
+  height: 50px;
+  width: 80px;
+  margin: 30px;
+  font-size: 18px;
+}
+
+.loading {
+  textAlign: 'center';
+  fontWeight: 'bold';
+}
+
+.display {
+  display: 'flex';
+  alignSelf: 'center';
+  marginLeft: '40%';
+  marginTop: '2%'
+}
