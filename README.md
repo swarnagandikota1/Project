@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+Project Description
+This project is a React-based web application that visualizes carbon intensity data on a map using heatmap layers. The map is powered by the Leaflet library, and users can search for regions by entering a region ID or using the search functionality on the map. The application fetches carbon intensity data from a Redux store and dynamically updates the heatmap visualization based on the input.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Interactive Leaflet map with heatmap layers representing carbon intensity levels.
+Search functionality to locate regions and view their data.
+Integration with a Redux store for state management.
+Dynamic updating of the map based on fetched region data.
+Clean and responsive user interface for seamless interaction.
+Technologies Used
+React.js: Frontend framework for building the UI.
+Redux: State management for handling region data.
+Leaflet: Library for rendering the map and heatmaps.
+Leaflet-heat: Plugin to add heatmap layers.
+Leaflet-control-geocoder: For map search functionality.
+How to Run the Project
+Clone the Repository:
 
-## Available Scripts
+bash
+Copy
+Edit
+git clone <repository_url>
+cd <repository_folder>
+Install Dependencies:
 
-In the project directory, you can run:
+bash
+Copy
+Edit
+npm install
+Start the Development Server:
 
-### `npm start`
+bash
+Copy
+Edit
+npm start
+Open your browser and navigate to http://localhost:3000 to view the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Usage
+Enter a Region ID in the input field and click Submit to fetch carbon intensity data.
+Use the search bar on the map to locate specific regions.
+View heatmap layers that represent carbon intensity levels for different areas.
+Check the fetched region name and intensity details below the input field.
+File Structure
+App.js: Contains the main application logic, including map integration and Redux data handling.
+Store: Includes Redux store configuration, actions, and reducers for managing data.
+Leaflet Heatmap Integration: HTML and JavaScript for rendering the heatmap and search functionality.
+Future Enhancements
+Add support for real-time updates to carbon intensity data.
+Implement filtering options for visualizing intensity levels by time or date.
+Enhance the UI/UX for better responsiveness and usability.
+Acknowledgments
+This application uses the following libraries and services:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Leaflet and its plugins for mapping.
+Redux for efficient state management.
+OpenStreetMap for map tiles.
+Feel free to contribute or suggest improvements!
